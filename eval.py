@@ -6,8 +6,10 @@ import os
 import time
 import datetime
 import data_helpers
+import hunspell
 from text_cnn import TextCNN
 from tensorflow.contrib import learn
+from nltk.tokenize import RegexpTokenizer
 import csv
 import sys
 
@@ -26,6 +28,9 @@ tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device 
 tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
 
 
+tokenizer = RegexpTokenizer(r'\w+')
+dic = hunspell.HunSpell("es_ANY.dic", "es_ANY.aff")
+
 while true:
 
     sentence = ""
@@ -37,6 +42,22 @@ while true:
     #        sentences = sentence + " " + sys.argv[i]
 
     sentence = input("Entrada: ")
+    tokens = tokenizer.tokenize(sentence)
+
+    sentence = ""
+
+    for word in tokens:
+        if(dic.spell(word)):
+            if(sentence == ""):
+                sentence = word
+            else:
+                sentence = sentence + " " + word;
+        else:
+            word = dic.suggest(word)[0]
+            if(sentence == ""):
+                sentence = word
+            else:
+                sentence = sentence + " " + word;
 
 
     # Data Parameters
