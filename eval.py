@@ -13,6 +13,18 @@ import sys
 
 # Parameters
 # ==================================================
+tf.flags.DEFINE_string("positive_data_file", "./data/rt-polaritydata/rt-polarity.pos", "Data source for the positive data.")
+tf.flags.DEFINE_string("negative_data_file", "./data/rt-polaritydata/rt-polarity.neg", "Data source for the negative data.")
+
+    # Eval Parameters
+tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
+tf.flags.DEFINE_string("checkpoint_dir", "", "Checkpoint directory from training run")
+tf.flags.DEFINE_boolean("eval_train", False, "Evaluate on all training data")
+
+    # Misc Parameters
+tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
+tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
+
 
 while true:
 
@@ -28,17 +40,7 @@ while true:
 
 
     # Data Parameters
-    tf.flags.DEFINE_string("positive_data_file", "./data/rt-polaritydata/rt-polarity.pos", "Data source for the positive data.")
-    tf.flags.DEFINE_string("negative_data_file", "./data/rt-polaritydata/rt-polarity.neg", "Data source for the negative data.")
-
-    # Eval Parameters
-    tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-    tf.flags.DEFINE_string("checkpoint_dir", "", "Checkpoint directory from training run")
-    tf.flags.DEFINE_boolean("eval_train", False, "Evaluate on all training data")
-
-    # Misc Parameters
-    tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
-    tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
+    
 
 
     FLAGS = tf.flags.FLAGS
@@ -108,8 +110,32 @@ while true:
 
     # Save the evaluation to a csv
     predictions_human_readable = np.column_stack((np.array(x_raw), all_predictions))
-#    print("OUTPUT: ")
-#    print(predictions_human_readable)
+    result = predictions_human_readable[0][1]
+    resultString = ""
+    if(result == '0.0'):
+        resultString = "Desarrollo movil"
+    elif(result == '1.0'):
+        resultString = "Frontend"
+    elif(result == '2.0'):
+        resultString = "Backend"
+    elif(result == '3.0'):
+        resultString = "Servidores"
+    elif(result == '4.0'):
+        resultString = "Videojuegos"
+    elif(result == '5.0'):
+        resultString = "Realidad Virtual"
+    elif(result == '6.0'):
+        resultString = "Data Science"
+    elif(result == '7.0'):
+        resultString = "Machine Learning"
+    elif(result == '8.0'):
+        resultString = "Emprendimiento"
+    
+
+    print("OUTPUT: " + resultString)
+
+    #print("OUTPUT: ")
+    #print(predictions_human_readable)
 
 
     #out_path = os.path.join(FLAGS.checkpoint_dir, "..", "prediction.csv")
