@@ -1,0 +1,389 @@
+reconocimiento de patrones
+aprendizaje sin supervisión
+algoritmo
+autómata
+mecánico
+teoría del aprendizaje computacional
+descifrador
+mecanismo
+motor
+motor
+computadora
+entrada
+conexionismo
+teoría de probabilidad
+estadística
+máquina
+aprendizaje
+datos
+maquinista
+Lenguaje de máquina
+maquinaria
+cyborg
+zamboni
+mecánico
+robot
+automatizar
+simulador
+transducción
+polea
+automatización
+combinar
+mecánico
+artilugio
+Ciencias de la Computación
+aparato
+machinima
+turbomáquina
+inteligencia artificial
+arthur samuel
+combo
+electromecanico
+dispositivo
+herramienta de máquina
+perceptron
+modelo matemático
+estadística computacional
+adalina
+turbina
+optimización matemática
+pistón
+engranaje
+filtro de spam
+Internet
+Gofai
+nanomáquina
+teletipo
+reconocimiento óptico de caracteres
+cicloscopio
+larva del moscardón
+aprendiendo a clasificar
+generador
+rueda de guía
+Marco principal
+visión por computador
+piloto automático
+volante
+máquina traductora
+maquinaria
+equipo
+minería de datos
+garaje
+caja de herramientas
+inagotable
+alternador
+metrónomo
+Dispositivo mecánico
+herramienta
+operametro
+tom m. Mitchell
+trabajo de ruedas
+definición operacional
+televisar
+hardware
+herramienta mental
+alan turing
+retropropagación
+calandrar
+eje
+artilugio
+tornillo
+periférico
+maquinaria de computación e inteligencia
+honda
+procesador
+teleimpresora
+rueda
+aprendizaje semi-supervisado
+palanca
+automático
+tarjeta madre
+UPC
+photoplotter
+osciloscopio
+miniordenador
+aparato de relojería
+microordenador
+microprocesador
+aprendizaje meta
+electrónico
+refresco de botella
+Hyundai
+lada
+sesgo inductivo
+fabricante de herramientas
+telecomputador
+dimensionador
+robótica del desarrollo
+aprendizaje robot
+utensilio para aplicar algo
+descollador
+red neuronal
+motorizar
+cálculo
+totalizador
+barreno
+maquina de casino
+soldado revolucionario
+modelo lineal generalizado
+herramienta eléctrica
+legible por máquina
+molino de martillos
+estadístico
+dispositivo periférico
+marcación automática
+tienda de reparacion
+maquina simple
+rueda dentada
+fabricación de automóviles
+cadena de herramientas
+nanocomputadora
+subtrama
+cochera
+Experto en Sistemas
+computernik
+administrador de sistemas
+sin herramientas
+el informismo
+no computador
+neurocomputador
+informática
+informólogo
+carplane
+chifla
+anticomputador
+informático
+Dashpot
+precomputador
+puter
+informatizar
+compilar
+cibernato
+Correa del ventilador
+voiturette
+computeritis
+programación de lógica inductiva
+computercide
+yo reservo
+hardware de la computadora
+máquina de movimiento perpetuo
+matarte
+recuperación de información
+motor de combustión
+flor de agua
+hielo picado
+conductor de pila
+pala de poder
+John Hopfield
+invento humano
+máquina de vapor
+david rumelhart
+contestador automático
+Geoff Hinton
+máquina de Turing
+no lineal
+contar dinero
+asistente personal digital
+aprendizaje profundo
+doctor
+idioma
+remoto
+perforar
+rastro
+trabajo
+total
+interferencia
+gestionar
+máquina expendedora
+todo coche
+Fruta
+mula
+cortacésped
+modelo
+molino
+mecánica
+matriz
+macro
+lógica
+androide
+artífice
+montar
+ensamblador
+montaje
+banco
+barril
+banco
+retraso
+bloquear
+cuerpo
+reforzar
+insecto
+reajuste salarial
+compilar
+compilador
+controlar
+mostrador
+cordón
+cangrejo
+arrastrarse
+cortar
+corte
+ciclo
+diccionario
+morir
+carga
+disco
+dibujo
+dragar
+deriva
+conducir
+conductor
+looper
+elemento
+emulación
+escalera mecánica
+extractor
+culpa
+adecuado
+fijar
+vida
+cuchillo
+comida
+cuadro
+llave
+futurismo
+engranaje
+apretón
+Guardia
+artillero
+cabeza
+quilla
+negar
+Java
+ocioso
+intercomunicador
+Interprete
+inventar
+invención
+ecml pkdd
+función de pérdida
+motor de avión
+dispositivo electronico
+buen transporte
+motor eléctrico
+en el taller de reparaciones
+caso de utilidad
+no vivo
+dispositivo de poder
+jugar checker
+michael i. Jordán
+dispositivo de transporte
+codigo de maquina
+fuerza motriz
+cuesta dinero
+vinculación
+Ciencia de los datos
+máquina del tiempo
+ginebra de algodón
+leo breiman
+inferencia
+tercera marcha
+parte del vehículo
+llanta de hierro
+grapadora
+camioneta
+tarjeta de video
+en el garaje
+tercera pantalla
+bosque al azar
+tienda de máquina
+taladro
+teoria computacional
+clavo de transmisión
+computadora digital
+hacer trabajo
+linea de ensamblaje
+aprendizaje supervisado
+motor térmico
+primera marcha
+osito
+Vehículo de motor
+tambor del freno
+el hombre hace
+Descomposición sesgo-varianza
+tensor
+mutación
+heurístico
+cruce
+cromosoma
+Netflix
+sistema fresco
+proceso de la palabra
+tracción delantera
+computadora analógica
+Llanta de carro
+calentador de bloque
+complejidad de tiempo
+panel de control
+caja de herramientas
+motor de automóvil
+en observatorio
+plano inclinado
+convertidor de datos
+sistema de gestión de contenidos
+mesa de ayuda
+eje secundario
+fluoroscopio
+micrografia
+nivel alto
+engranaje alto
+inferencia estadística
+Electrodoméstico
+rueda motriz
+comunicación digital
+Carta gráfica
+organizar informacion
+Correa del ventilador
+dispositivo eléctrico
+árbol de decisión
+acceso a Internet
+modelado predictivo
+Red neuronal artificial
+redes neuronales biologicas
+neurona artificial
+k-svd
+modelado de datos
+distribución de probabilidad conjunta
+programación lógica
+programación inductiva
+clasificación estadística
+análisis de regresión
+Dip switch
+lenguaje de alto nivel
+lenguaje de bajo nivel
+instrucción macro
+simulador de vuelo
+interruptor de paquete en línea dual
+dibujo mecánico
+caballo de potencia
+archivo binario
+análisis de los datos
+modelo grafico
+variables aleatorias
+independencia condicional
+Gráfico Acíclico Dirigido
+análisis de componentes principales
+aprendizaje subespacial multilineal
+algoritmo de búsqueda
+codificación dispersa
+seleccion natural
+aprendizaje múltiple
+análisis de conglomerados
+fuertemente np-duro
+algoritmo evolutivo
+sistemas de recomendación
+premio netflix
+at & t labs
+promedio de conjunto
+ética de la máquina
+Paquete de programas

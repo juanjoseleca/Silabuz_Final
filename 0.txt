@@ -1,0 +1,24 @@
+animaciones
+animación
+applet
+applets
+audio
+autenticación
+autoría
+navegador
+depurador
+escritorio
+gráficos
+gui
+interfaz
+menús
+paquete
+simulador
+software
+caja de herramientas
+ui
+backend
+puesto de trabajo
+CSS
+HTML
+Javascript
