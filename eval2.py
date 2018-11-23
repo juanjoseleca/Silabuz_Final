@@ -13,6 +13,7 @@ from nltk.tokenize import RegexpTokenizer
 import csv
 import sys
 import json
+from urllib.request import urlopen
 
 # Parameters
 # ==================================================
@@ -35,7 +36,7 @@ dic = hunspell.HunSpell("es_ANY.dic", "es_ANY.aff")
 
 
 sentence = ""
-j = urllib2.urlopen('http://localhost:80')
+j = urlopen('http://localhost:80')
 jsonObj = json.load(j)
 sentence = jsonObj['comentario']
 
