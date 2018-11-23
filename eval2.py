@@ -46,8 +46,6 @@ sentence = jsonObj['comentario']
 #    else:
 #        sentences = sentence + " " + sys.argv[i]
 
-sentence = input("Entrada: ")
-
 # Data Parameters
 
 
