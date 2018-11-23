@@ -6,116 +6,15 @@ dispositivo móvil
 asistente personal digital
 asistente digital de empresa
 middleware
-navegador web
-interfaz de usuario
-plataforma de aplicaciones empresariales móviles
-xml
-tecnología
+plataforma de aplicaciones empresariales móvilestecnología
 movimiento
-cámara
-movimiento
-red
-avión
-subir
 sprint
-pda
-oportunidades
-casas
-hogares
-viviendas
-alojamiento
-residencias
-Teléfono móvil
+lamp
 celular
-nasa
-ala
-cromatografía
-cuna
-amortiguar
-muelle
-ascensor
-eno
-ambulancia
-antena
-flotador
-fluido
-volador
-Art
-ginge
-mano
-bisagra
-inmovilizar
-inmovilizado
-auto
 ordenador portátil
-máquina
-mezcla
-multitud
-mobbing
-Bluetooth
-movilidad
-movilización
-movilizar
-movilizado
-ratón
-furgón de cola
-nokia
 teléfono
-podcast
-pontón
-rampa
-torre
-cáscara
-skype
-teléfono inteligente
-serpiente
-nieve
-más calido
-estable
-suspender
-tienda
-tipi
-texto
-mensajes de texto
-deshielo
-lengua
-torre
-remolque
-portador
-transceptor
-gorjeo
-castor
-célula
-suspendido
-cmt
-Farragut
-litosfera
-hecho puré
-maceración
-mos
-ssw
-elemental
-telemática
 aplicación
-cloral
-acelerar
 entorno de desarrollo integrado
-Kotlin
-emulador
-cyon
-esporozoito
-inmovilizador
-gameto
-ciclohexano
+java
 backend móvil como servicio
 Arquitectura orientada a Servicios
-lodsys
-telefono celular
-arma de campo
-artillería de campo
-parque de remolques
-teléfono celular
-trae tu propio dispositivo
-experiencia de usuario
-pruebas de campo
-sistema operativo móvil

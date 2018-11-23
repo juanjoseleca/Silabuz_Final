@@ -2,23 +2,32 @@ animaciones
 animación
 applet
 applets
-audio
 autenticación
 autoría
 navegador
 depurador
-escritorio
-gráficos
-gui
-interfaz
-menús
 paquete
 simulador
 software
 caja de herramientas
-ui
 backend
 puesto de trabajo
 CSS
 HTML
-Javascript
+www
+internet
+intranet
+HTML
+programación
+php
+sitio web
+desarrollo
+comercio electrónico
+lamp
+modernizar
+ebay
+sistema operativo móvil
+android
+ios
+kotlin
+java

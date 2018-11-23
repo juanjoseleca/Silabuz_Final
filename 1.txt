@@ -1,12 +1,9 @@
-servidor
 interfaz
 usuario
-Unix
 fácil de usar
 cliente
 modelo vista controlador
 mvc
-Ingeniería de software
 separación de intereses
 html
 Capa de presentación
@@ -15,73 +12,22 @@ capa de acceso a datos
 lado del servidor
 arquitectura de software
 capa de abstracción
-mando
 diseño de software
-procesamiento de datos
-regla de oro
-filtrar
-tubo
-ncurses
-administrador de archivos
-sistema de archivos
-dsp
-Yo asi
-isp
-ciclo vital
-micro
-microprocesador
-microprocesadores
-nic
-buscapersonas
-pbx
-tarjeta de circuito impreso
-procesador
-al final
-fondo
-fin
-luego
-posterior
-posterior
-atrás
-subsecuente
-adaptador
-marca
-codec
-computadora
-UPC
-base de datos
-dbms
 dominio
-nuevo
-relacional
-utilizando
-usos
-proporciona
-utilizar
-compiladores
-sistema operativo
-traductor
+Javascript
+gui
+ui
 interfaz de línea de comandos
 interfaz gráfica del usuario
 sistemas
 entorno de escritorio
-back-end
 análisis
-www
-fonética
-símbolo
 flujo de bytes
-Red de computadoras
-hardware de red
-tráfico de red
+contenido
 sistema de gestión de contenidos
 código fuente
 representación intermedia
-optimización de programas
-codigo de GENERACION
-colección de compiladores GNU
 lenguaje de programación
-unidad Central de procesamiento
 síntesis del habla
-patrón mediador
-servicio de red
+patrón
+experiencia de usuario
