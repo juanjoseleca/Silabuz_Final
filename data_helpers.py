@@ -41,6 +41,8 @@ def load_data_and_labels(positive_data_file, negative_data_file):
     negative_labels = [[1, 0] for _ in negative_examples]
     y = np.concatenate([positive_labels, negative_labels], 0)
     return [x_text, y]
+
+
 def cargar():
     x_text=[]
     tam=[]
@@ -62,13 +64,18 @@ def cargar():
     label_7=[[0,0,0,0,0,0,0,1,0] for j in range(tam[7])]
     label_8=[[0,0,0,0,0,0,0,0,1] for j in range(tam[8])]
     y=np.concatenate([label_0,label_1,label_2,label_3,label_4,label_5,label_6,label_7,label_8],0)
-    return [x_text,y]    
+    return [x_text,y]  
+
+
 def cargar_test():
-    data_=list(open("res_v3.txt", "r", encoding='utf-8').readlines())    
-    x_text=[clean_str(sent) for sent in data_]
-    label_=[[1,0,0,0,0,0,0] for j in range(len(x_text))]
-    y=np.concatenate([label_],0)
+
+    data_= list(open("res_v3.txt", "r", encoding='utf-8').readlines())    
+    x_text = [clean_str(sent) for sent in data_]
+    label_= [[1,0,0,0,0,0,0] for j in range(len(x_text))]
+    y = np.concatenate([label_],0)
     return [x_text,y]
+
+
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
     """
     Generates a batch iterator for a dataset.

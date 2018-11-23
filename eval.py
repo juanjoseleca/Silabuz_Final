@@ -13,6 +13,18 @@ import sys
 # Parameters
 # ==================================================
 
+sentence = ""
+
+for i in range(1, len(sys.argv)):
+    if i == 1:
+        sentence = sys.argv[i]
+    else:
+        sentences = sentence + " " + sys.argv[i]
+
+print(sentence)
+
+
+
 # Data Parameters
 tf.flags.DEFINE_string("positive_data_file", "./data/rt-polaritydata/rt-polarity.pos", "Data source for the positive data.")
 tf.flags.DEFINE_string("negative_data_file", "./data/rt-polaritydata/rt-polarity.neg", "Data source for the negative data.")
@@ -36,19 +48,22 @@ for attr, value in sorted(FLAGS.__flags.items()):
 print("")
 
 # CHANGE THIS: Load data. Load your own data here
-if FLAGS.eval_train:
+#if FLAGS.eval_train:
     #x_raw, y_test = data_helpers.load_data_and_labels(FLAGS.positive_data_file, FLAGS.negative_data_file)
-    x_raw, y_test = data_helpers.cargar_test()
-    y_test = np.argmax(y_test, axis=1)
-else:
-    x_raw = ["a masterpiece four years in the making", "everything is off."]
-    y_test = [1, 0]
+    #x_raw, y_test = data_helpers.cargar_test()
+#    y_test = np.argmax(y_test, axis = 1)
+#else:
+#    x_raw = ["a masterpiece four years in the making", "everything is off."]
+#    y_test = [1, 0]
+
+x_raw = [sentence]
+y_test = [0,0,0,0,0,0,0,0,1]
 
 # Map data into vocabulary
 vocab_path = os.path.join(FLAGS.checkpoint_dir, "", "vocab")
 vocab_processor = learn.preprocessing.VocabularyProcessor.restore(vocab_path)
 x_test = np.array(list(vocab_processor.transform(x_raw)))
-print("look",x_test)
+print("look", x_test)
 print("\nEvaluating...\n")
 
 # Evaluation
