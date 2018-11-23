@@ -10,18 +10,19 @@ from text_cnn import TextCNN
 from tensorflow.contrib import learn
 import csv
 import sys
+
 # Parameters
 # ==================================================
 
 sentence = ""
 
-for i in range(1, len(sys.argv)):
-    if i == 1:
-        sentence = sys.argv[i]
-    else:
-        sentences = sentence + " " + sys.argv[i]
+#for i in range(1, len(sys.argv)):
+#    if i == 1:
+#        sentence = sys.argv[i]
+#    else:
+#        sentences = sentence + " " + sys.argv[i]
 
-print(sentence)
+sentence = raw_input("Entrada: ")
 
 
 
@@ -106,7 +107,11 @@ if y_test is not None:
 
 # Save the evaluation to a csv
 predictions_human_readable = np.column_stack((np.array(x_raw), all_predictions))
-out_path = os.path.join(FLAGS.checkpoint_dir, "..", "prediction.csv")
-print("Saving evaluation to {0}".format(out_path))
-with open(out_path, 'w') as f:
-    csv.writer(f).writerows(predictions_human_readable)
+print("OUTPUT: ")
+print(predictions_human_readable)
+
+
+#out_path = os.path.join(FLAGS.checkpoint_dir, "..", "prediction.csv")
+#print("Saving evaluation to {0}".format(out_path))
+#with open(out_path, 'w') as f:
+#    csv.writer(f).writerows(predictions_human_readable)
