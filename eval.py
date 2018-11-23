@@ -31,7 +31,7 @@ tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on 
 tokenizer = RegexpTokenizer(r'\w+')
 dic = hunspell.HunSpell("es_ANY.dic", "es_ANY.aff")
 
-while true:
+while True:
 
     sentence = ""
 
