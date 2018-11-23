@@ -8,6 +8,6 @@ sentence = ""
 #    else:
 #        sentence = sentence + " " + sys.argv[i]
 
-sentence = raw_input("Entrada: ")
+sentence = input("Entrada: ")
 
 print(sentence)

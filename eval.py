@@ -22,7 +22,7 @@ sentence = ""
 #    else:
 #        sentences = sentence + " " + sys.argv[i]
 
-sentence = raw_input("Entrada: ")
+sentence = input("Entrada: ")
 
 
 
